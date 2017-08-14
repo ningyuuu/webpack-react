@@ -18,7 +18,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack",
+    "start": "node app.js",
     "heroku-postbuild": "webpack",
     "dev": "webpack-dev-server --hot"
   }
