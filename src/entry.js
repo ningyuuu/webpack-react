@@ -4,11 +4,11 @@ import App from './app';
 
 ReactDOM.render(
   <App />,
-  document.getElementById("react")
+  document.getElementById('react')
 );
 
 if (module.hot) {
   module.hot.accept('./app', () => {
-    ReactDOM.render(<App />, document.getElementById("react"));
+    ReactDOM.render(<App />, document.getElementById('react'));
   });
 }
